@@ -34,8 +34,8 @@ $loginURl=$helper->getLoginUrl($redirectURL,$permissions);
   
   <button type="submit" class="btn btn-primary">login</button>
 
-  <button type="submit" id="fbbutton" onclick="window.location = 'https://www.youtube.com/watch?v=OlH1RCs96JA'" class="btn btn-primary">Login with Facebook</button>
-<a href='<?php echo $loginURl ?>'>you</a>
+ 
+<a href='<?php echo $loginURl ?>'>login with facebook</a>
   
 
 </form>
